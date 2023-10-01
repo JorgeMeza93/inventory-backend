@@ -9,11 +9,6 @@ public class CategoryResponse {
 	
 	private List<Category> category;
 	
-	public CategoryResponse(List<Category> category) {
-		super();
-		this.category = category;
-	}
-
 	public List<Category> getCategory() {
 		return category;
 	}
