@@ -14,6 +14,10 @@ public class ResponseRest {
 		map.put("date", date);
 		metadata.add(map);
 	}
+	public ArrayList<HashMap<String, String>> getMetadata(){
+		return metadata;
+	}
+	
 	
 	
 }
